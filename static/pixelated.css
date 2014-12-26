@@ -18,7 +18,7 @@ body {
 .login {
     display: block;
     width: 240px;
-    height: 200px;
+    height: 220px;
     margin: auto;
     padding: 45px 40px;
     background-color: #FFF;
@@ -42,14 +42,9 @@ body {
     margin-top: 1em;
 }
 
-div.title {
-    font-weight: 300;
-    font-size: 1.7rem;
-    border-left: 20px solid #FF9C00;
-
-    margin-left: -40px;
-    padding-left: 20px;
-    height: 40px;
+.logo {
+    width:90%;
+    height: auto;
 }
 
 input {
