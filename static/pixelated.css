@@ -14,8 +14,8 @@ body {
 }
 
 .error {
-    background-color: #D72A25;
-    color: #FFF;
+    color: #D72A25;
+    margin: 0;
 }
 
 .login {
@@ -34,7 +34,7 @@ body {
     margin-top: 10%;
     width: 50%;
     margin: auto;
-    background-color: #178CA6;
+    background-color: #2BA6CB;
     color: #FFFFFF;
     font-weight: 300;
     font-size: 0.8rem;
