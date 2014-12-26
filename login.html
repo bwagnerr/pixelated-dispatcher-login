@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="static/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="static/pixelated.css">
+    <link rel="stylesheet" type="text/css" href="static/opensans.css">
+    <!--<link rel="shortcut icon" href="/dispatcher_static/img/favicon.png" />-->
+
+<body class="sub-navigation">
+<div class="login">
+
+    <div class="title">Pixelated Login</div>
+    <p class="error">
+    </p>
+
+    <form class="standard" id="login_form" action="/auth/login" method="post" style="padding: 10px">
+        <input type="text" name="username" id="email" class="text-field" placeholder="username">
+        <input type="password" name="password" id="password" class="text-field" placeholder="password">
+
+        <input type="submit" name="login" value="Login" class="button">
+    </form>
+</div>
+
+
+</body>
+
+</html>
