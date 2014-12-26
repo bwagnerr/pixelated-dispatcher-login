@@ -8,23 +8,43 @@
     <link rel="stylesheet" type="text/css" href="static/opensans.css">
     <!--<link rel="shortcut icon" href="/dispatcher_static/img/favicon.png" />-->
 
-<body class="sub-navigation">
-<div class="login">
+<body>
+<div class="content">
+    <div class="login">
 
-    <div class="title">Pixelated Login</div>
-    <p class="error">
-      There was an error
-    </p>
+        <img class="logo" src="static/pixelated-logo-orange.svg" alt="Pixelated logo" />
+        <p class="error">There was an error</p>
 
-    <form class="standard" id="login_form" action="/auth/login" method="post" style="padding: 10px">
-        <input type="text" name="username" id="email" class="text-field" placeholder="username">
-        <input type="password" name="password" id="password" class="text-field" placeholder="password">
+        <form class="standard" id="login_form" action="/auth/login" method="post" style="padding: 10px">
+            <input type="text" name="username" id="email" class="text-field" placeholder="username">
+            <input type="password" name="password" id="password" class="text-field" placeholder="password">
 
-        <input type="submit" name="login" value="Login" class="button">
-    </form>
+            <input type="submit" name="login" value="Login" class="button">
+        </form>
+    </div>
+    <div class="warning">
+        <ul>
+            <li>
+                Test user accounts are meant to allow for an experience of Pixelated and they are published on our website with username and password.
+            </li>
+            <li>
+                These accounts are accessible to a wide audience. The respective private
+            PGP keys are stored on our server and we do have access to these
+            specific keys.
+            </li>
+            <li>
+                Please do not consider the test email addresses in any way secure.
+            </li>
+            <li>
+                Messages sent to and from these accounts may be deleted without notice.
+            </li>
+            <li>
+                Do not send any sensitive content to or from any of these test email
+            addresses.
+            </li>
+        </ul>
+    </div>
 </div>
-
-
 </body>
 
 </html>
