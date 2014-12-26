@@ -22,8 +22,8 @@ body {
     margin: auto;
     padding: 45px 40px;
     background-color: #FFF;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .warning {
@@ -77,4 +77,19 @@ button:hover, button:focus, .button:hover, .button:focus, input[type=button]:hov
   background-color: #2285a2;
   outline: none;
   color: white;
+}
+
+ul.accounts {
+  margin-bottom: 5%;
+}
+
+ul.accounts li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 35px;
+  margin-top: 0px;
+}
+
+ul.accounts li span {
+  font-weight: bold;
 }
